@@ -1,0 +1,26 @@
+.section--contrast {
+  background-color: #1a0a00;
+  color: #ffdec8;
+}
+
+.section__divider {
+  width: 100%;
+  height: 0.2em;
+  margin: 0.6em auto;
+  background-color: #c64f00;
+}
+
+.img--box-shadow {
+  box-shadow: 0.5em 0.75em 1.2em 0 rgba(0, 0, 0, 0.4);
+}
+.img--border {
+  border: 0.3em #1a0a00 solid;
+}
+.img--round {
+  border-radius: 100%;
+}
+
+.form__input {
+  margin-bottom: 1em;
+  margin-right: 2em;
+}

@@ -1,0 +1,6 @@
+{
+  "editor.minimap.enabled": false,
+  "eslint.options": {
+    "configFile": "./.eslintrc.json"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "plugins": ["jest-dom", "simple-import-sort", "react-hooks"],
+  "extends": ["airbnb", "plugin:prettier/recommended"],
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true,
+    "jest": true
+  },
+  "globals": {
+    "cy": true
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    },
+    "react": {
+      "version": "detect"
+    }
+  },
+  "rules": {
+    "jest-dom/prefer-checked": "error",
+    "jest-dom/prefer-enabled-disabled": "error",
+    "jest-dom/prefer-required": "error",
+    "jest-dom/prefer-to-have-attribute": "error",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "react/prop-types": "off",
+    "react/jsx-no-bind": "off",
+    "import/prefer-default-export": "off",
+    "import/extensions": [1, "never"],
+    "react/jsx-filename-extension": [1, { "extensions": [".jsx", ".tsx"] }],
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true
+      }
+    ],
+    "simple-import-sort/imports": "warn",
+    "simple-import-sort/exports": "warn"
+  }
+}

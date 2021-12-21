@@ -1,0 +1,45 @@
+.hide-overflow-x {
+  overflow-x: hidden;
+}
+
+.hidden {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+/* tablet */
+@media screen and (min-width: 600px) {
+  body {
+    font-size: 110%;
+  }
+  .img--hfl {
+    width: 300px;
+    margin-bottom: -108px;
+  }
+  .section__container--testimonials {
+    flex-direction: row;
+  }
+  .section__quotation--testimonial {
+    width: 25vw;
+  }
+  .section__divider {
+    width: 0.2em;
+    height: auto;
+  }
+  .section__container--join {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 1000px) {
+  body {
+    font-size: 120%;
+  }
+  .section__container--stats {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}

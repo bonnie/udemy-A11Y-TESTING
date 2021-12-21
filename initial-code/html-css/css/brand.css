@@ -1,0 +1,75 @@
+body {
+  background-color: #ffdec8;
+  color: #1a0a00;
+  font-family: "Proza Libre", sans-serif;
+  font-size: 100%;
+}
+
+.section {
+  max-width: 1240px;
+  margin: 1.5em auto;
+  padding: 0 0.5em;
+}
+.section--contrast {
+  background-color: #1a0a00;
+  color: #ffdec8;
+}
+
+.section__quotation {
+  background: url("/quote.svg") no-repeat;
+  background-size: 2em 2.5em;
+  padding-top: 1.15em;
+  text-indent: 2.15em;
+}
+
+.section__text--md {
+  font-size: 1.5em;
+}
+.section__text--lg {
+  font-size: 2em;
+}
+.section__text--xl {
+  font-size: 3em;
+}
+.section__text--xxl {
+  font-size: 4em;
+}
+.section__text--emphasis {
+  color: #c64f00;
+}
+
+.section__divider {
+  width: 100%;
+  height: 0.2em;
+  margin: 0.6em auto;
+  background-color: #c64f00;
+}
+
+.img--box-shadow {
+  box-shadow: 0.5em 0.75em 1.2em 0 rgba(0, 0, 0, 0.4);
+}
+.img--border {
+  border: 0.3em #1a0a00 solid;
+}
+.img--round {
+  border-radius: 100%;
+}
+
+.form__input {
+  margin-bottom: 1em;
+  margin-right: 2em;
+}
+
+.button {
+  background-color: #b34700;
+  color: #ffb380;
+  border: none;
+  border-radius: 2em;
+  padding: 0.5em 1em;
+  box-shadow: 0.07em 0.15em 0.5em 0 rgba(0, 0, 0, 0.4);
+  font-size: 1.2em;
+  margin: 0.5em;
+}
+.button:hover {
+  background-color: #c64f00;
+}
