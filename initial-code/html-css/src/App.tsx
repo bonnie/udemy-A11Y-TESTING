@@ -11,7 +11,7 @@ function App() {
         className="section section--splash"
         aria-label="Health for Life Splash Image"
       >
-        <img className="img--hfl" alt="Health for Life" src="/logo.svg" />
+        <img className="img--hfl" src="/logo.svg" />
         <img
           className="img--box-shadow img--splash"
           alt="silhouettes of children jumping against a sunset background"
