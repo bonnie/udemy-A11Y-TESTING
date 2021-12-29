@@ -16,6 +16,20 @@ module.exports = (on, config) => {
     lighthouse: lighthouse((lighthouseReport) => {
       try {
         if (!fs.existsSync(outDir)) fs.mkdirSync(outDir);
+
+        // to rotate logs, uncomment the code below
+        /* const lighthouseReports = fs
+          .readdirSync(outDir)
+          .filter((file) => file.search(/^lighthouse-report.*\.html$/) === 0);
+        lighthouseReports
+          .reverse()
+          .slice(10) // replace 10 with the number of reports to keep
+          .forEach((file) => {
+            console.log("---- INFO: deleted old lighthouse report file", file);
+            fs.unlinkSync(path.join(outDir, file));
+          });
+        */
+
         const dateString = new Date().toISOString();
         const fileName = path.join(
           outDir,
