@@ -16,7 +16,7 @@ export const axe = configureAxe({
           impact: "minor",
           messages: {
             pass: "img alt tag does not contain redundant words",
-            fails:
+            fail:
               "img alt tag contains one or more redundant words: photo, image, logo",
           },
         },
